@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="creational">
+      <UniqueIdentifier>{e9875c90-b953-44bf-b052-d2f25bf68881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="creational\singleton">
+      <UniqueIdentifier>{4fee55e8-a7e5-4c47-9b4d-38ce583bd481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="creational\factory">
+      <UniqueIdentifier>{bade93dd-7724-44f5-9849-830528bf4b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="creational\factory_method">
+      <UniqueIdentifier>{039b950e-4fb0-42e0-92d6-4d64e6a83d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="creational\abstract_factory">
+      <UniqueIdentifier>{ec23fc50-f689-4b59-89ba-d68a94eed260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="creational\builder">
+      <UniqueIdentifier>{b17d95ad-8902-4ec3-8168-3b2b54b5607a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="creational\prototype">
+      <UniqueIdentifier>{fa962918-e872-410b-8efe-80ffb57748f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="factory.h">
+      <Filter>creational\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="factory_method.h">
+      <Filter>creational\factory_method</Filter>
+    </ClInclude>
+    <ClInclude Include="abstract_factory.h">
+      <Filter>creational\abstract_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="builder.h">
+      <Filter>creational\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="prototype.h">
+      <Filter>creational\prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>creational\singleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
